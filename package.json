@@ -1,0 +1,19 @@
+{
+  "name": "marks-awareness",
+  "version": "1.0.0",
+  "description": "Short-Term Memory (Hippocampus) & Memory Consolidation (LLM Wiki) Demo for Mark Twain digital twin",
+  "main": "scripts/consolidate.js",
+  "type": "module",
+  "scripts": {
+    "ingest": "node scripts/ingest.js",
+    "consolidate": "node scripts/consolidate.js",
+    "export": "node scripts/export.js",
+    "simulate": "node scripts/simulate_day.js",
+    "simulate:evolution": "node scripts/simulate_evolution.js",
+    "crawl": "node scripts/crawler.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.6.0",
+    "dotenv": "^16.4.5"
+  }
+}
